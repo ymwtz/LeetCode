@@ -113,6 +113,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="10-RegularExpressionMatching.h" />
     <ClInclude Include="2-AddTwoNumbers.h" />
     <ClInclude Include="3-LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="4-MedianofTwoSortedArrays.h" />

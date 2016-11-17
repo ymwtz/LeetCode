@@ -2,9 +2,17 @@
 using namespace std;
 
 int main() {
-	string s, p;
-	cin >> s >> p;
-	Solution sol;
-	cout << sol.isMatch(s, p) << endl;
+	while (true)
+	{
+		string s, p;
+		cin >> s >> p;
+		Solution sol;
+		bool f = sol.isMatch(s, p);
+		if (f)
+			cout << "true" << endl;
+		else
+			cout << "false" << endl;
+	}
+
 	return 0;
 }

@@ -56,5 +56,8 @@
     <ClInclude Include="10-RegularExpressionMatching.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="11-ContainerWithMostWater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

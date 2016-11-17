@@ -7,13 +7,12 @@ using namespace std;
 class Solution {
 public:
 	bool isMatch(string s, string p) {
-		vector<vector<bool>> f(p.size(), vector<bool>(s.size(), false));
+		vector<vector<bool>> f(p.size() + 1, vector<bool>(s.size() + 1, false));
 
-		if (s[0] == p[0])
-			f[0][0] = true;
+		f[0][0] = true;
 
-		for (int i = 1;i < p.size();++i) {
-			for (int j = 1;j < s.size();++j) {
+		for (int i = 0;i < p.size() + 1;++i) {
+			for (int j = 0;j < s.size() + 1;++j) {
 
 			}
 		}

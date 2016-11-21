@@ -1,17 +1,13 @@
-#include"10-RegularExpressionMatching.h"
+#include"12-IntegertoRoman.h"
 using namespace std;
 
 int main() {
 	while (true)
 	{
-		string s, p;
-		cin >> s >> p;
+		int n;
 		Solution sol;
-		bool f = sol.isMatch(s, p);
-		if (f)
-			cout << "true" << endl;
-		else
-			cout << "false" << endl;
+		cin >> n;
+		cout << sol.intToRoman(n) << endl;
 	}
 
 	return 0;

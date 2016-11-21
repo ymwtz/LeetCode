@@ -1,13 +1,13 @@
-#include"12-IntegertoRoman.h"
+#include"13-RomantoInteger.h"
 using namespace std;
 
 int main() {
 	while (true)
 	{
-		int n;
+		string s;
 		Solution sol;
-		cin >> n;
-		cout << sol.intToRoman(n) << endl;
+		cin >> s;
+		cout << sol.romanToInt(s) << endl;
 	}
 
 	return 0;

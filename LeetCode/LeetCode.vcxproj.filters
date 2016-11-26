@@ -71,5 +71,8 @@
     <ClInclude Include="15-3Sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="16-3SumClosest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

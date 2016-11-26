@@ -119,6 +119,7 @@
     <ClInclude Include="13-RomantoInteger.h" />
     <ClInclude Include="14-LongestCommonPrefixAddtoList.h" />
     <ClInclude Include="15-3Sum.h" />
+    <ClInclude Include="16-3SumClosest.h" />
     <ClInclude Include="2-AddTwoNumbers.h" />
     <ClInclude Include="3-LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="4-MedianofTwoSortedArrays.h" />

@@ -68,5 +68,8 @@
     <ClInclude Include="14-LongestCommonPrefixAddtoList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="15-3Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,13 +1,21 @@
-#include"13-RomantoInteger.h"
+#include"18-4Sum.h"
 using namespace std;
 
 int main() {
 	while (true)
 	{
-		string s;
+		vector<int> a;
+		int n;
 		Solution sol;
-		cin >> s;
-		cout << sol.romanToInt(s) << endl;
+		int tar;
+		cin >> tar;
+		cin >> n;
+		for (int i = 0;i < n;++i) {
+			int t;
+			cin >> t;
+			a.push_back(t);
+		}
+		sol.fourSum(a, tar);
 	}
 
 	return 0;

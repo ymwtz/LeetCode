@@ -1,21 +1,21 @@
-#include"18-4Sum.h"
+#include"19-RemoveNthNodeFromEndofList.h"
 using namespace std;
 
 int main() {
 	while (true)
 	{
-		vector<int> a;
 		int n;
-		Solution sol;
-		int tar;
-		cin >> tar;
-		cin >> n;
-		for (int i = 0;i < n;++i) {
-			int t;
-			cin >> t;
-			a.push_back(t);
+		int t;
+		ListNode *head = new ListNode(-1);
+		ListNode *tail = head;
+		while (cin >> t&&t >= 0) {
+			ListNode *p = new ListNode(t);
+			tail->next = p;
+			tail = p;
 		}
-		sol.fourSum(a, tar);
+		cin >> n;
+		Solution sol;
+		sol.removeNthFromEnd(head->next, n);
 	}
 
 	return 0;

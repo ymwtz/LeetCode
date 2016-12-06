@@ -122,7 +122,9 @@
     <ClInclude Include="16-3SumClosest.h" />
     <ClInclude Include="17-LetterCombinationsofaPhoneNumber.h" />
     <ClInclude Include="18-4Sum.h" />
+    <ClInclude Include="19-RemoveNthNodeFromEndofList.h" />
     <ClInclude Include="2-AddTwoNumbers.h" />
+    <ClInclude Include="20-ValidParentheses.h" />
     <ClInclude Include="3-LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="4-MedianofTwoSortedArrays.h" />
     <ClInclude Include="5-LongestPalindromicSubstring.h" />

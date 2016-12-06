@@ -80,5 +80,11 @@
     <ClInclude Include="18-4Sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="19-RemoveNthNodeFromEndofList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="20-ValidParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

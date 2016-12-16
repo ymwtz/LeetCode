@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="21- MergeTwoSortedLists.h" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>

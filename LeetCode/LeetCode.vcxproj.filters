@@ -92,5 +92,8 @@
     <ClInclude Include="22-GenerateParentheses.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="23-MergekSortedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

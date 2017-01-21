@@ -31,11 +31,12 @@ public:
 
 		ListNode *q = ans;
 		int init = 0;
-		while (init<p.size() && p[init] == NULL) {
-			init++;
-		}
 		while (n > 0) {
 			n = 0;
+
+			while (init<p.size() && p[init] == NULL) {
+				init++;
+			}
 
 			int j = init;
 			int k = p[init]->val;
@@ -52,9 +53,6 @@ public:
 			p[j] = p[j]->next;
 			if (p[j] == NULL)
 				n--;
-			while (init<p.size()&&p[init] == NULL) {
-				init++;
-			}
 			
 			ListNode *t = new ListNode(k);
 			q->next = t;

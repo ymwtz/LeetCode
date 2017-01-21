@@ -95,5 +95,8 @@
     <ClInclude Include="23-MergekSortedLists.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="24-SwapNodesinPairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -128,6 +128,7 @@
     <ClInclude Include="20-ValidParentheses.h" />
     <ClInclude Include="22-GenerateParentheses.h" />
     <ClInclude Include="23-MergekSortedLists.h" />
+    <ClInclude Include="24-SwapNodesinPairs.h" />
     <ClInclude Include="3-LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="4-MedianofTwoSortedArrays.h" />
     <ClInclude Include="5-LongestPalindromicSubstring.h" />

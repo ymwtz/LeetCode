@@ -1,34 +1,32 @@
-#include"23-MergekSortedLists.h"
+#include"24-SwapNodesinPairs.h"
 using namespace std;
 
 int main() {
 	while (true)
 	{
+		ListNode *head = new ListNode(0);
+		ListNode *p = head;
+
 		int n;
 		cin >> n;
-
-		vector<ListNode*> lists;
-		for (int i = 0;i < n;i++) {
-			ListNode *head=new ListNode(0);
-			ListNode *p = head;
+		
+		for (int i = 0;i < n;++i) {
 			int a;
-			while (cin >> a) {
-				if (a == -1)
-					break;
-				ListNode *t = new ListNode(a);
-				p->next = t;
-				p = p->next;
-			}
-			lists.push_back(head->next);
+			cin >> a;
+			ListNode *t = new ListNode(a);
+			p->next = t;
+			p = p->next;
 		}
 
 		Solution sol;
+		p = sol.swapPairs(head->next);
 
-		ListNode *ans = sol.mergeKLists(lists);
-
-		while (ans != NULL) {
-			cout << ans->val<<" ";
-			ans = ans->next;
+		int i = 0;
+		while(p!=NULL){
+			if (i != 0)
+				cout << "->";
+			cout << p->val;
+			p = p->next;
 		}
 		cout << endl;
 	}

@@ -1,4 +1,4 @@
-#include"24-SwapNodesinPairs.h"
+#include"25-ReverseNodesink-Group.h"
 using namespace std;
 
 int main() {
@@ -18,8 +18,11 @@ int main() {
 			p = p->next;
 		}
 
+		int k;
+		cin >> k;
+
 		Solution sol;
-		p = sol.swapPairs(head->next);
+		p = sol.reverseKGroup(head->next, k);
 
 		int i = 0;
 		while(p!=NULL){

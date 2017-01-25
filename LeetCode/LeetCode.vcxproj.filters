@@ -98,5 +98,8 @@
     <ClInclude Include="24-SwapNodesinPairs.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="25-ReverseNodesink-Group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
